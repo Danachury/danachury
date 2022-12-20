@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Frontend",
+    "values": [
+      {
+        "name": "React",
+        "icon": "react",
+        "experience": "< 1 year"
+      },
+      {
+        "name": "Angular",
+        "icon": "angular",
+        "experience": "> 4 years"
+      },
+      {
+        "name": "Vaadin",
+        "icon": "vaadin",
+        "experience": "> 5 years"
+      }
+    ]
+  },
+  {
+    "name": "Backend",
+    "values": [
+      {
+        "name": "Java",
+        "icon": "hotjar",
+        "experience": "> 5 years"
+      },
+      {
+        "name": "NodeJs",
+        "icon": "node js",
+        "experience": "> 5 years"
+      },
+      {
+        "name": "Kotlin",
+        "icon": "korvue",
+        "experience": "< 1 year"
+      },
+      {
+        "name": "Python",
+        "icon": "python",
+        "experience": "< 2 years"
+      },
+      {
+        "name": "Scala",
+        "icon": "steam",
+        "experience": "< 2 years"
+      }
+    ]
+  },
+  {
+    "name": "Frameworks",
+    "values": [
+      {
+        "name": "Spring",
+        "icon": "leaf",
+        "experience": "> 5 years"
+      },
+      {
+        "name": "Guice",
+        "icon": "google",
+        "experience": "< 1 year"
+      },
+      {
+        "name": "Akka Stream/Http",
+        "icon": "steam",
+        "experience": "> 2 years"
+      },
+      {
+        "name": "Project Reactor",
+        "icon": "react",
+        "experience": "> 1 years"
+      },
+      {
+        "name": "ExpressJS",
+        "icon": "node",
+        "experience": "> 2 years"
+      }
+    ]
+  },
+  {
+    "name": "Tools",
+    "values": [
+      {
+        "name": "Git",
+        "icon": "code branch",
+        "experience": "> 5 years"
+      },
+      {
+        "name": "Docker / Docker Compose",
+        "icon": "docker",
+        "experience": "> 4 years"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "jenkins",
+        "experience": "> 4 years"
+      },
+      {
+        "name": "Jetbrains suite / VS Code",
+        "icon": "code",
+        "experience": "> 6 years"
+      },
+      {
+        "name": "Gradle / Maven / SBT",
+        "icon": "cogs",
+        "experience": "> 4 years"
+      }
+    ]
+  },
+  {
+    "name": "Databases",
+    "values": [
+      {
+        "name": "Postgresql",
+        "icon": "database",
+        "experience": "> 5 years"
+      },
+      {
+        "name": "Mysql",
+        "icon": "database",
+        "experience": "< 2 years"
+      },
+      {
+        "name": "Mongodb",
+        "icon": "database",
+        "experience": "> 4 years"
+      }
+    ]
+  }
+]
