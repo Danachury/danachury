@@ -1,6 +1,7 @@
 import React from 'react'
 import { Grid, Header, List, SemanticICONS, SemanticWIDTHS } from 'semantic-ui-react'
 import techStack from './techStack.json'
+
 import './TechStack.css'
 
 export default function () {

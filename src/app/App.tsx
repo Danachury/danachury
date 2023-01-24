@@ -1,6 +1,7 @@
 import React from 'react'
-import './App.css'
 import Menu from './menu/Menu'
+
+import './App.css'
 
 export default function () {
   return (
