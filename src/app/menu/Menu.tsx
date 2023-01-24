@@ -1,24 +1,27 @@
-import React, { Component } from 'react'
+import React, { Component, ComponentType } from 'react'
 import { Menu as SemanticMenu } from 'semantic-ui-react'
-import './Menu.css'
 import { Link, Route } from 'wouter'
 import Welcome from 'app/welcome/Welcome'
 import Bio from 'app/bio/Bio'
 import Experience from 'app/experience/Experience'
 import TechStack from 'app/tech-stack/TechStack'
 import Contact from 'app/contact/Contact'
+import Calculator4x1000 from 'app/calculators/Calculator4x1000'
 import { toTitleCase } from 'app/util/string-utils'
 import { Tuple } from 'app/util/types'
 import { Path } from 'wouter/types/use-location'
 
+import './Menu.css'
+
 export default class extends Component {
 
-  menus: Tuple<Path, () => JSX.Element>[] = [
+  menus: Tuple<Path, (() => JSX.Element) | ComponentType>[] = [
     Tuple.create('/', Welcome),
     Tuple.create('/about-me', Bio),
     Tuple.create('/experience', Experience),
     Tuple.create('/technology-stack', TechStack),
-    Tuple.create('/contact', Contact)
+    Tuple.create('/contact', Contact),
+    Tuple.create('/4x1000-calculator', Calculator4x1000)
   ]
 
   state = { activeItem: this.menus[0].first }
@@ -35,6 +38,7 @@ export default class extends Component {
     return <>
       {
         this.menus.map(tuple =>
+          // @ts-ignore error when the component is a class
           <Route path={tuple.first} component={tuple.second}/>
         )
       }
