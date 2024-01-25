@@ -1,0 +1,11 @@
+a {
+    transition: .5s all;
+}
+a:hover {
+    color: var(--bs-primary) !important;
+}
+
+a.active {
+    color: var(--bs-primary) !important;
+    border-bottom: 2px dashed var(--bs-primary);
+}
