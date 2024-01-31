@@ -15,14 +15,13 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-sm navbar-dark bg-transparent p-2">
 
       <Link className="navbar-brand" to="/">
-        <img src="/vite.svg" alt="Profile Picture"/>
+        <img src="/vite.svg" alt=""/>
       </Link>
 
       <div className="navbar-collapse">
         <div className="navbar-nav">
           <NavLink className={navLinkClassName} to="/about">About</NavLink>
           <NavLink className={navLinkClassName} to="/portfolio">Portfolio</NavLink>
-          <NavLink className={navLinkClassName} to="/contact">Contact</NavLink>
         </div>
       </div>
 

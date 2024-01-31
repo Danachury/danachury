@@ -1,0 +1,17 @@
+.icon-button {
+    background: var(--bs-primary);
+    bottom: 2em;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 2em;
+    position: fixed;
+    right: 2em;
+    transition: .5s all;
+    z-index: 1000;
+}
+
+.icon-button:hover {
+    background: var(--bs-primary-border-subtle);
+}

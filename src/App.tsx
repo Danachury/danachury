@@ -1,7 +1,7 @@
 import { Overview } from './overview/pages'
 import { Navbar } from './shared/components'
 import { Route, Routes } from 'react-router-dom'
-import { Contact } from './contact/pages'
+import { ContactModal } from './contact/components'
 
 const App = () => {
 
@@ -11,9 +11,9 @@ const App = () => {
       <div className="container d-flex justify-content-center">
         <Routes>
           <Route path="/" element={<Overview/>}/>
-          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </div>
+      <ContactModal/>
     </>
   )
 }
